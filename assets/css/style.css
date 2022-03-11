@@ -1,0 +1,16 @@
+/* base rules */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* heading fonts */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'poppins' ,sans-serif;
+}
+/* paragragh rules */
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
