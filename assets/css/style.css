@@ -101,7 +101,170 @@ p {
     display: block;
     text-align: center;
 }
+.portfolio-item{
+    overflow: hidden;
+    position: relative;
+}
 
+
+
+
+
+
+
+/* 
+
+.services{
+    background-image:url(assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    height:400px;
+    color:white;
+}
+#service{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 90px;
+}
+#what{
+    text-align: center;
+    font-weight:600;
+    font-size: 30px;
+}
+.images{
+    display:flex;
+    justify-content: space-between;
+}
+.imagetitles{
+    display:flex;
+    justify-content: space-evenly;
+}
+.imagetexts{
+    display:flex;
+    justify-content:space-between;
+}
+#design{
+    margin-left:50px;
+}
+#product{
+    margin-right: 50px;
+}
+#des{
+    margin-left:60px;
+}
+#dev{
+    margin-left: 620px;
+}
+#mgt{
+    margin-left: 600px;
+}
+.design{
+    display:none;
+}
+.development{
+    display:none;
+}
+.product{
+    display:none;
+}
+.portfolio{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#port{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.row1{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row-reverse;
+}
+.row2{
+    display:flex;
+    justify-content: space-around;
+}
+.pfolio{
+    padding-left: 20px;
+}
+#w1 , #w2 , #w3, #w4, #w5, #w6, #w7, #w8{
+    border:solid white;
+    position:absolute;
+    width:95%;
+    height:95%;
+    top:8px;
+    margin-left:8px;
+    padding:10px;
+    color:white;
+    display:none;
+    text-align: left;
+    font-size:30px;
+    font-weight:700;
+}
+
+.contactus{
+    background-image: url(assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    color:white;
+}
+#contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.form-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:200px;
+    margin-left:200px;
+    color:white;
+}
+#name{
+    margin-left:-50px;
+    background: transparent;
+}
+#email{
+    background:transparent;
+}
+.button{
+    background: transparent;
+    color:white;
+    margin-left: 200px;
+    margin-top:-10px;
+}
+#message{
+    margin-left:200px;
+    background: transparent;
+    color:white;
+    height:50%;
+    width:75%
+}
+.socials{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+#cp{
+    text-align:center;
+}
+#cpy{
+    text-align: center;
+}
+
+.whatwedo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dd , .dp , .pm {
+    display: none;
+} */
 
 
 
