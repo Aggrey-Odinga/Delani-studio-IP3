@@ -90,3 +90,17 @@ p {
     font-weight: 540;
     font-size: 20px;
 }
+
+#whatwedo{
+    min-height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#head{
+    display: block;
+    text-align: center;
+}
+
+
+
