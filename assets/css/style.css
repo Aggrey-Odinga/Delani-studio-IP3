@@ -1,12 +1,14 @@
 /* base rules */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-  line-height: 1.8;
-  font-size: 15px;
+    line-height: 1.8;
+    font-size: 15px;
 }
+
 /* heading fonts */
 h1,
 h2,
@@ -14,68 +16,77 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Times New Roman", Times, serif, sans-serif;
+    font-family: "Times New Roman", Times, serif, sans-serif;
 }
+
 /* paragragh rules */
 p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
-  line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 /* headers section */
 #home {
-  min-height: 100vh;
-  width: 100%;
-  background-image: url("../backgrounds/h_img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  display: flex;
-  align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    display: flex;
+    align-items: center;
 }
+
 #home h1 {
-  font-weight: 500;
+    font-weight: 500;
 }
+
 #home p {
-  max-width: 550px;
-  margin: auto;
-  font-weight: 540;
+    max-width: 550px;
+    margin: auto;
+    font-weight: 540;
 }
+
 .navbar {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav-link {
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-.logo-text {
-  font-size: 22px;
-  text-transform: uppercase;
-  color: black;
-}
-.navbar .nav-link.active {
-  color: #e93b81;
-}
-#services {
-  min-height: 50vh;
-  width: 100%;
-  background-image: url("../backgrounds/s_image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  display: flex;
-  align-items: center;
-}
-#services h1 {
-  font-weight: 500;
-}
-#services p {
-  max-width: 550px;
-  margin: auto;
-  font-weight: 540;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
+.logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.navbar .nav-link.active {
+    color: #e93b81;
+}
+
+#services {
+    min-height: 50vh;
+    width: 100%;
+    background-image: url("../backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#services h1 {
+    font-weight: 500;
+}
+
+#services p {
+    color: #fff;
+    max-width: 1050px;
+    margin: auto;
+    font-weight: 540;
+    font-size: 20px;
+}
