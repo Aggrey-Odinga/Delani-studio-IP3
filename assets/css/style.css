@@ -37,6 +37,11 @@ header{
     letter-spacing: 1px;
 
 }
+.logo-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+}
 .navbar .nav-link.active{
     color: #e93b81;
 }
