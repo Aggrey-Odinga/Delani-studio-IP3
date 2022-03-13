@@ -38,7 +38,7 @@ var name = document.getElementById("name").value;
 var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
 
-$("#myModal .modal-body").text(name + ' we have received your message. Thank you fro reaching out to us.');
+$("#myModal .modal-body").text(name + ' we have received your message. Thank you for reaching out to us.');
 var modal = document.getElementById("myModal");
  modal.style.display = "block";
 });
