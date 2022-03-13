@@ -1,20 +1,34 @@
-$(document).ready(function(){
- $("#design-text").hide();
+$(document).ready(function () {
+  $("#design-text").hide();
+  $("#dev-text").hide();
+  $("#product-text").hide();
 });
-$(".design").on('click', function(event){
-$("#design-text").show();
+
+$(".design").on("click", function (event) {
+  $("#design-text").show();
+  $('.design').hide();
+  
 });
-$(document).ready(function(){
- $("#dev-text").hide();
+$("#design-text").on("click", function (event){
+   $("#design-text").hide();
+   $('.design').show();
 });
-$(".develop").on('click', function(event){
-console.log("designclick")
-$("#dev-text").show();
+
+$(".develop").on("click", function (event) {
+  $("#dev-text").show();
+  $('.develop').hide();
 });
-$(document).ready(function(){
- $("#product-text").hide();
+$("#dev-text").on("click", function (event){
+   $("#dev-text").hide();
+   $('.develop').show();
 });
-$(".product").on('click', function(event){
-console.log("designclick")
-$("#product-text").show();
+
+$(".product").on("click", function (event) {
+  $("#product-text").show();
+   $('.product').hide();
 });
+$("#product-text").on("click", function (event){
+   $("#product-text").hide();
+   $('.product').show();
+});
+
