@@ -32,3 +32,19 @@ $("#product-text").on("click", function (event){
    $('.product').show();
 });
 
+$("#btn-submit").on("click", function (event){
+console.log("modal")
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var message = document.getElementById("message").value;
+
+$("#myModal .modal-body").text(name + ' we have received your message. Thank you fro reaching out to us.');
+var modal = document.getElementById("myModal");
+ modal.style.display = "block";
+});
+
+$(".close").on("click", function (event){
+var modal = document.getElementById("myModal");
+ modal.style.display = "none";
+});
+
