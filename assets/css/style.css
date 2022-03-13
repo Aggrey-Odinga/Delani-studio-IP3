@@ -1,12 +1,12 @@
 /* base rules */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    line-height: 1.8;
-    font-size: 15px;
+  line-height: 1.8;
+  font-size: 15px;
 }
 
 /* heading fonts */
@@ -16,152 +16,163 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Times New Roman", Times, serif, sans-serif;
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
 
 /* paragragh rules */
 p {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
-    line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 30px;
 }
 
 /* headers section */
 #home {
-    min-height: 100vh;
-    width: 100%;
-    background-image: url("../backgrounds/h_img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-    display: flex;
-    align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  display: flex;
+  align-items: center;
 }
 
 #home h1 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #home p {
-    max-width: 550px;
-    margin: auto;
-    font-weight: 540;
+  max-width: 550px;
+  margin: auto;
+  font-weight: 540;
 }
 
 .navbar {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav-link {
-    font-size: 12px;
-    letter-spacing: 1px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .logo-text {
-    font-size: 22px;
-    text-transform: uppercase;
-    color: black;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+}
+#smh{
+  margin-top: 50px;
+}
+.aboutus{
+  margin-top: 10px;
+  font-size: 20px;
+  height: 20vh;
+  line-height: 40px;
 }
 
+
+
 #services {
-    min-height: 50vh;
-    width: 100%;
-    background-image: url("../backgrounds/s_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
+  min-height: 50vh;
+  width: 100%;
+  background-image: url("../backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
 
 #services h1 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #services p {
-    color: #fff;
-    max-width: 1050px;
-    margin: auto;
-    font-weight: 540;
-    font-size: 20px;
+  color: #fff;
+  max-width: 1050px;
+  margin: auto;
+  font-weight: 540;
+  font-size: 20px;
 }
 
-#whatwedo{
-    min-height: 40vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
+#whatwedo {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-#head{
-    display: block;
-    text-align: center;
+#head {
+  display: block;
+  text-align: center;
 }
-.portfolio{
-    margin-left: 50px;
-    margin-right: 50px;
+.portfolio {
+  margin-left: 50px;
+  margin-right: 50px;
 }
-#portfolio-1{
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
+#portfolio-1 {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
 }
 
-/* 
+
+
+
 .contactus{
-    background-image: url(assets/backgrounds/c_image.jpg);
+    background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
-    background-size: 100% 100%;
+    height: 70vh;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
     color:white;
+    border-color: #fff;
 }
 #contact{
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
+    margin-top: 80px;
+
 }
-.form-row{
+.form-group{
     display: flex;
     justify-content: space-evenly;
     margin-right:200px;
     margin-left:200px;
-    color:white;
+    color:#fff;
 }
 #name{
     margin-left:-50px;
     background: transparent;
+    text-emphasis-color: #fff;
 }
 #email{
     background:transparent;
 }
-.button{
-    background: transparent;
-    color:white;
-    margin-left: 200px;
-    margin-top:-10px;
-}
+
 #message{
-    margin-left:200px;
+    margin-left: 200px;
     background: transparent;
-    color:white;
-    height:50%;
-    width:75%
+    color:#fff;
+    height:250px;
+    width: 75%;
 }
-.socials{
+
+
+.media{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin: 10px 440px;
 }
-#cp{
-    text-align:center;
-}
-#cpy{
+
+
+
+
+#footer{
     text-align: center;
 }
-
-
-
-.dd , .dp , .pm {
-    display: none;
-} */ */
