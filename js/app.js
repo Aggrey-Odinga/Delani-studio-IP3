@@ -1,11 +1,8 @@
-$(".design").on('click', function(event){
-console.log("designclick")
-$("#design-text").show();
-});
-
-
 $(document).ready(function(){
  $("#design-text").hide();
+});
+$(".design").on('click', function(event){
+$("#design-text").show();
 });
 $(document).ready(function(){
  $("#dev-text").hide();
