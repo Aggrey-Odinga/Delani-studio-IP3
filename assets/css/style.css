@@ -157,7 +157,7 @@ p {
 }
 /* CONTACT */
 .contactus {
-  background-image: url("../backgrounds/c_image.jpg");
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;
   height: 70vh;
   width: 100%;
