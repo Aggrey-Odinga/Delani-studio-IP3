@@ -38,6 +38,10 @@ var name = document.getElementById("name").value;
 var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
 
+$('#name').val('');
+$('#email').val('');
+$('#message').val('');
+
 if (name == ""){
   alert("please enter name")
   return
