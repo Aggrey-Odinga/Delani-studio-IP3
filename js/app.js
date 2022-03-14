@@ -38,6 +38,19 @@ var name = document.getElementById("name").value;
 var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
 
+if (name == ""){
+  alert("please enter name")
+  return
+}
+if (email == ""){
+  alert("please enter email")
+  return
+}
+if (message == ""){
+  alert("please enter message")
+  return
+}
+
 $("#myModal .modal-body").text(name + ' we have received your message. Thank you for reaching out to us.');
 var modal = document.getElementById("myModal");
  modal.style.display = "block";
