@@ -37,7 +37,7 @@ console.log("modal")
 var name = document.getElementById("name").value;
 var email = document.getElementById("email").value;
 var message = document.getElementById("message").value;
-
+// reset input form
 $('#name').val('');
 $('#email').val('');
 $('#message').val('');
